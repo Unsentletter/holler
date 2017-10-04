@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div style={{ textAlign: 'center'}}>
+    <div className="login_button">
       <Link to={'/login_form'}>
-        <button className="btn">
+        <button className="btn-large">
         Login
         </button>
       </Link>

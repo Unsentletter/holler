@@ -53,29 +53,31 @@ class LoginForm extends Component {
 
   render() {
     return (
-      <div >
-        <form onSubmit={(event) => this.onFormSubmit(event)}>
-          <input
-            type="text"
-            name="username"
-            placeholder="Username"
-            value={this.state.username}
-            onChange={(event) => this.handleUserInput(event)}
-          />
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            value={this.state.password}
-            onChange={(event) => this.handleUserInput(event)}
-          />
-          <button
-            type="submit"
-            className="btn"
-          >
-            Submit
-          </button>
-        </form>
+      <div>
+        <div className="login_box">
+          <form onSubmit={(event) => this.onFormSubmit(event)}>
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              value={this.state.username}
+              onChange={(event) => this.handleUserInput(event)}
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              value={this.state.password}
+              onChange={(event) => this.handleUserInput(event)}
+            />
+            <button
+              type="submit"
+              className="btn"
+            >
+              <i className="material-icons right">Submit</i>
+            </button>
+          </form>
+        </div>
       </div>
     )
   }
