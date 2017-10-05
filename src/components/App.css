@@ -17,3 +17,7 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
+
+.nav-wrapper {
+  padding-left: 30px;
+}

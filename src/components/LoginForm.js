@@ -74,7 +74,7 @@ class LoginForm extends Component {
               type="submit"
               className="btn"
             >
-              <i className="material-icons right">Submit</i>
+              <i>Submit</i>
             </button>
           </form>
         </div>
