@@ -1,6 +1,6 @@
 To run: `npm start`
 
-I have pushed this to Heroku and you can find it at https://gentle-journey-86231.herokuapp.com/login_form
+I have pushed this to Heroku and you can find it at https://gentle-journey-86231.herokuapp.com/
 
 Github: https://github.com/Unsentletter/holler
 
